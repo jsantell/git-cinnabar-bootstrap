@@ -10,7 +10,11 @@ If you're using a git clone of [gecko-dev](https://github.com/mozilla/gecko-dev)
 
 ## Bootstrapping
 
-`$ ./git-cinnabar-bootstrap.sh`
+```
+$ git init gecko
+$ cd gecko
+$ ../git-cinnarbar-bootstrap/bootstrap.sh
+```
 
 ## Setting up branches
 
